@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_002,Chrome 121.0.0.0,,,03-02-2024 18:03:17,03-02-2024 18:03:53,36.258s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Cart_Item_004,Chrome 121.0.0.0,,,03-02-2024 18:03:17,03-02-2024 18:03:33,16.390s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 18:03:17,03-02-2024 18:03:19,1.961s,PASSED
+"navigateToUrl(""https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"")",Chrome 121.0.0.0,,,03-02-2024 18:03:19,03-02-2024 18:03:20,1.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon.in Shopping Cart/span_Sign in""))",Chrome 121.0.0.0,,,03-02-2024 18:03:20,03-02-2024 18:03:22,1.797s,PASSED
+"setText(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon Sign In/input_email""), ""srinathnetha723@gmail.com"")",Chrome 121.0.0.0,,,03-02-2024 18:03:22,03-02-2024 18:03:24,1.394s,PASSED
+"click(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,03-02-2024 18:03:24,03-02-2024 18:03:24,0.884s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon Sign In/input_password""), ""NLlgqqYIS2ixVubOByWTxQ=="")",Chrome 121.0.0.0,,,03-02-2024 18:03:24,03-02-2024 18:03:26,1.084s,PASSED
+"click(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,03-02-2024 18:03:26,03-02-2024 18:03:26,0.388s,PASSED
+"click(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon.in Shopping Cart/input_proceedToRetailCheckout""))",Chrome 121.0.0.0,,,03-02-2024 18:03:26,03-02-2024 18:03:32,6.066s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 18:03:32,03-02-2024 18:03:33,1.120s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 18:03:33,03-02-2024 18:03:33,0.216s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Checkout_005,Chrome 121.0.0.0,,,03-02-2024 18:03:33,03-02-2024 18:03:53,19.629s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 18:03:33,03-02-2024 18:03:34,0.842s,PASSED
+"navigateToUrl(""https://www.amazon.in/gp/cart/view.html/259-4808994-2889261"")",Chrome 121.0.0.0,,,03-02-2024 18:03:34,03-02-2024 18:03:35,1.100s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon.in Shopping Cart/span_Sign in""))",Chrome 121.0.0.0,,,03-02-2024 18:03:35,03-02-2024 18:03:37,1.826s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/input_email""), ""srinathnetha723@gmail.com"")",Chrome 121.0.0.0,,,03-02-2024 18:03:37,03-02-2024 18:03:39,1.974s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,03-02-2024 18:03:39,03-02-2024 18:03:40,1.161s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/input_password""), ""NLlgqqYIS2ixVubOByWTxQ=="")",Chrome 121.0.0.0,,,03-02-2024 18:03:40,03-02-2024 18:03:42,1.605s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon.in Shopping Cart/input_proceedToRetailCheckout""))",Chrome 121.0.0.0,,,03-02-2024 18:03:42,03-02-2024 18:03:51,9.527s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 18:03:51,03-02-2024 18:03:53,1.310s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 18:03:53,03-02-2024 18:03:53,0.175s,PASSED

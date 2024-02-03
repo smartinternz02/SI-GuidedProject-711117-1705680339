@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_002,Chrome 121.0.0.0,,,03-02-2024 17:49:44,03-02-2024 17:51:25,1m - 40.917s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Cart_Item_004,Chrome 121.0.0.0,,,03-02-2024 17:50:59,03-02-2024 17:51:09,9.983s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 17:50:59,03-02-2024 17:51:01,1.183s,PASSED
+"navigateToUrl(""https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"")",Chrome 121.0.0.0,,,03-02-2024 17:51:01,03-02-2024 17:51:02,1.296s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon.in Shopping Cart/select_All Categories        Alexa Skills  _a62561""), ""search-alias=computers"", true)",Chrome 121.0.0.0,,,03-02-2024 17:51:02,03-02-2024 17:51:04,1.835s,PASSED
+"setText(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon.in Shopping Cart/input_field-keywords""), ""dell"")",Chrome 121.0.0.0,,,03-02-2024 17:51:04,03-02-2024 17:51:05,1.170s,PASSED
+"click(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon.in Shopping Cart/span_laptop""))",Chrome 121.0.0.0,,,03-02-2024 17:51:05,03-02-2024 17:51:08,3.323s,PASSED
+"click(findTestObject(""Object Repository/Page_Cartitem/Page_Amazon.in  dell laptop/span_Dell 14 Laptop, 12th Gen Intel Core i3_4a0e9f""))",Chrome 121.0.0.0,,,03-02-2024 17:51:08,03-02-2024 17:51:09,0.916s,PASSED
+"switchToWindowTitle(""Dell 14 Laptop, 12th Gen Intel Core i3-1215U Processor/8GB/512GB SSD/Intel UHD Graphics/14.0""(35.56cm) FHD/Windows 11 + MSO'21/15 Month McAfee/Spill-Resistant Keyboard/Grey/Thin & Light 1.48kg : Amazon.in: Electronics"")",Chrome 121.0.0.0,,,03-02-2024 17:51:09,03-02-2024 17:51:09,0.215s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Checkout_005,Chrome 121.0.0.0,,,03-02-2024 17:51:09,03-02-2024 17:51:25,15.903s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 17:51:10,03-02-2024 17:51:11,1.117s,PASSED
+"navigateToUrl(""https://www.amazon.in/gp/cart/view.html/259-4808994-2889261"")",Chrome 121.0.0.0,,,03-02-2024 17:51:11,03-02-2024 17:51:12,1.554s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon.in Shopping Cart/span_Sign in""))",Chrome 121.0.0.0,,,03-02-2024 17:51:12,03-02-2024 17:51:14,1.611s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/input_email""), ""srinathnetha723@gmail.com"")",Chrome 121.0.0.0,,,03-02-2024 17:51:14,03-02-2024 17:51:15,1.278s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,03-02-2024 17:51:15,03-02-2024 17:51:16,1.113s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/input_password""), ""NLlgqqYIS2ixVubOByWTxQ=="")",Chrome 121.0.0.0,,,03-02-2024 17:51:16,03-02-2024 17:51:17,1.090s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,03-02-2024 17:51:17,03-02-2024 17:51:18,0.470s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/Page_Amazon.in Shopping Cart/input_proceedToRetailCheckout""))",Chrome 121.0.0.0,,,03-02-2024 17:51:18,03-02-2024 17:51:24,6.218s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 17:51:24,03-02-2024 17:51:25,1.095s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 17:51:25,03-02-2024 17:51:25,0.173s,PASSED
