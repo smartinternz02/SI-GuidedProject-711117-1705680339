@@ -125,6 +125,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1706959150782</id>
 			<name></name>
 			<type>10</type>
@@ -207,6 +208,18 @@
 		</filter>
 		<filter>
 			<id>1706964528771</id>
+=======
+			<id>1706960132351</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1706960132366</id>
+>>>>>>> branch 'master' of https://github.com/smartinternz02/SI-GuidedProject-711117-1705680339.git
 			<name></name>
 			<type>6</type>
 			<matcher>
